@@ -1,0 +1,10 @@
+@Nfs.WebAPI.DynamoDb_HostAddress = https://localhost:7224
+
+GET {{Nfs.WebAPI.DynamoDb_HostAddress}}/products/
+Accept: application/json
+
+###
+
+GET {{Nfs.WebAPI.DynamoDb_HostAddress}}/api/products/List
+
+###
